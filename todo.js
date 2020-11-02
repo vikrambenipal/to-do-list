@@ -20,6 +20,7 @@ function addItem(){
         listItem.appendChild(closeButton);
         var len = document.getElementsByClassName("close");
 
+        var x = 0;
         var close = document.getElementsByClassName("close");
         var i;
         // Iterating through a list of span elements 
